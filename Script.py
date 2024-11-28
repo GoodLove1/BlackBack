@@ -2,19 +2,19 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}\n𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
 
     ABOUT_TXT ="""<b>✯ Mʏ ɴᴀᴍᴇ: {}
-✯ Dᴇᴠᴇʟᴏᴩᴇʀ: <a herf=https://t.me/TheBlackXYZBotz>TheBlackXYZBotz</a>
+✯ Dᴇᴠᴇʟᴏᴩᴇʀ: <a herf=https://t.me/FondnessBots>FondnessBots</a>
 ✯ Cᴏᴅᴇᴅ Oɴ: ᴩʏᴛʜᴏɴ/ᴩʏʀᴏɢʀᴀᴍ
 ✯ Mʏ DᴀᴛᴀBᴀꜱᴇ: ᴍᴏɴɢᴏ-ᴅʙ
 ✯ Mʏ Sᴇʀᴠᴇʀ: ᴀɴʏᴡʜᴇʀᴇ
 ✯ Mʏ Vᴇʀꜱɪᴏɴ: Tʜᴇ Bʟᴀᴄᴋ Bᴏᴛ ᴠ1.0.2</b>"""
 
     SOURCE_TXT = """<b>SOURCE:</b>
-  Tʜɪs Is TʜᴇBʟᴀᴄᴋXYZBᴏᴛᴢ Dᴇᴠʟᴏᴘᴇʀʀ
+  Tʜɪs Is FondnessBots Dᴇᴠʟᴏᴘᴇʀʀ
 
-Oᴘᴇɴ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ :- GitHub.com/TheBlackxyz
+Oᴘᴇɴ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ :- GitHub.com/FondnessBots
 
 <b>OWNER:</b>
-- Oᴡɴᴇʀ Hᴇʟᴘ<a href=https://t.me/TheBlackXYZOwnerBot>TʜᴇBʟᴀᴄᴋXYZBᴏᴛᴢ</a>"""
+- Oᴡɴᴇʀ Hᴇʟᴘ<a href=https://t.me/FondnessOwnerBot>FondnessBots</a>"""
 
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
@@ -28,9 +28,9 @@ Oᴘᴇɴ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ :- GitHub.com/TheBlackxyz
 
 ⪼ 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 ›
 
-<code>/batch https://t.me/TheBlackXYZ https://t.me/TheBlackXYZ</code>
+<code>/batch https://t.me/FondnessBots https://t.me/FondnessBots</code>
 
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/TheBlackXYZ><b>TʜᴇBʟᴀᴄᴋXYZ</b></a>"""
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/FondnessBots><b>FondnessBots</b></a>"""
     
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
@@ -341,7 +341,7 @@ Delete A Lot Of Messages From Groups!
 
     FORCE_SUB_TEXT = """ 𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑻𝒐 𝑼𝒔𝒆 𝑻𝒉𝒊𝒔 𝑩𝒐𝒕!"""
     
-    CUSTOM_FILE_CAPTION = """ Hey {mention}👋\n\n{file_name}\n\n♻️ size - {file_size}\n\n┣ ▫️ @TheBlackXYZ_Movies\n┣ ▫️ @TheBlackXYZ\n┣ ▫️ @TheBlackXYZBotz\n─ • ◆ •"""
+    CUSTOM_FILE_CAPTION = """ Hey {mention}👋\n\n{file_name}\n\n♻️ size - {file_size}\n\n┣ ▫️ @Fondness_Movies\n┣ ▫️ @FondnessBots\n┣ ▫️ @FondnessBots\n─ • ◆ •"""
     
     IMDB_TEMPLATE = """ <b>𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 :-@TheBlackXYZBotz\n\nQuery: {query}</b> \n‌IMDb Data:\n\n<b>🏷 Title</b>: <a href={url}>{title}</a>\n<b>🎭 Genres</b>: {genres}\n<b>📆 Year</b>: <a href={url}/releaseinfo>{year}</a>\n<b>🌟 Rating</b>: <a href={url}/ratings>{rating}</a> / 10\n<b>☀️ Languages</b> : <code>{languages}</code>\n<b>📆 Release Info</b> : {release_date}\n<b>🍀Requested by🍀</b> : {message.from_user.mention}"""
 
@@ -354,7 +354,7 @@ Delete A Lot Of Messages From Groups!
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
     PROGRESS_BAR = """\n
-╭━━━━❰ BlackBot Renaming... ❱━➣
+╭━━━━❰ Fondness Renaming... ❱━➣
 ┣⪼ 🗂️ : {1} | {2}
 ┣⪼ ⏳️ : {0}%
 ┣⪼ 🚀 : {3}/s
