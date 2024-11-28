@@ -72,15 +72,15 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 
 # Bg Remove And Url Shotner 
 RemoveBG_API = environ.get("RemoveBG_API", 'f7stCpqeKmuDeHMX66qH5V8D')
-SHORT_URL = environ.get("SHORT_URL", 'yamlinks.com')
-SHORT_API = environ.get("SHORT_API", '8ba797ded52d10834ad44fc07bf9c659a67167d4')
+SHORT_URL = environ.get("SHORT_URL", '')
+SHORT_API = environ.get("SHORT_API", '')
 
 # Channel Links 💸 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/TheBlackXYZ_Movie_Group')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TheBlackXYZ')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'The_Black_XYZ_SupportChat') # without @
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Fondness_Movie_Group')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/FondnessBots')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Fondmess_SupportChat') # without @
 FSUB_MODE = "REQ"
-REQ_CHANNEL = environ.get("REQ_CHANNEL", "TheBlackXYZBotz")
+REQ_CHANNEL = environ.get("REQ_CHANNEL", "Fondness_Movie_Group")
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else AUTH_CHANNEL
 
